@@ -16,3 +16,9 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+footer{
+    position: absolute;
+    line-height: 55px;
+    bottom: -33px;
+}
