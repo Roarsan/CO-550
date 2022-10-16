@@ -1,0 +1,25 @@
+﻿@page
+@model WebApplication1.Pages.Index1Model
+@{
+}
+<header class="text-center">
+    <h1 class="display-4">Razor Page</h1>
+    <h2>by @Model.FirstName</h2>
+    <form method="post">
+        <div class="mb-3 mt-3">
+            <label for="email" >Email:</label>
+                <input type="email"   required="true" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="name" >Name</label>
+                <input type="text" asp-for="FirstName" required="true" class="form-control"  >
+        </div>
+        <div class="form-check mb-3">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+            </label>
+        </div>
+        <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        </form>

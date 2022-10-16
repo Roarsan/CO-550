@@ -17,8 +17,8 @@ body {
   margin-bottom: 60px;
 }
 
-footer{
-    position: absolute;
+footer {
+    position: relative;
     line-height: 55px;
-    bottom: -33px;
+    bottom: -333px;
 }
